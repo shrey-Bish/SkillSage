@@ -113,13 +113,16 @@ The frontend runs on `http://localhost:3000`, backend on `http://localhost:8000`
 PRs and suggestions welcome! Please open an issue for bugs or enhancements.
 
 ---
-## 🔍 Skill Gap Visualization
-
-![Skill Gap](./assets/SkillGap.png)
 
 ## 📊 Dashboard Preview
 
 ![Dashboard](./assets/Dashboard.png)
+
+## 🔍 Skill Gap Visualization
+
+![Skill Gap](./assets/SkillGap.png)
+
+
 
 ---
 
