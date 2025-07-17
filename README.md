@@ -1,8 +1,4 @@
-Here’s a professional `README.md` file for your **SkillSage** project, explaining what it does, how to set it up locally, and how to contribute:
 
----
-
-```markdown
 # SkillSage 🎓🚀
 
 > Your AI-powered personalized learning assistant to extract skills from text or resume, identify gaps, and generate tailored roadmaps.
@@ -130,10 +126,4 @@ Created by [Shrey Bishnoi](https://github.com/shrey-Bish) – feel free to reach
 
 ```
 
----
-
-Let me know if you want:
-- A logo/banner added
-- GitHub Actions for deployment
-- Or any project badges (e.g., MIT license, stars, etc.)
 ```
