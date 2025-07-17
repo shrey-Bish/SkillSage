@@ -1,0 +1,16 @@
+{
+    "machine learning engineer": [
+      { "step": 1, "task": "Learn Python and statistics" },
+      { "step": 2, "task": "Understand linear algebra & probability" },
+      { "step": 3, "task": "Study ML algorithms: regression, trees, SVM" },
+      { "step": 4, "task": "Practice on Kaggle or real-world datasets" },
+      { "step": 5, "task": "Build and deploy ML models" }
+    ],
+    "frontend developer": [
+      { "step": 1, "task": "Master HTML, CSS, JavaScript" },
+      { "step": 2, "task": "Learn React and state management" },
+      { "step": 3, "task": "Work with REST APIs" },
+      { "step": 4, "task": "Build and deploy full projects" }
+    ]
+  }
+  

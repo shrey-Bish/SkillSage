@@ -1,0 +1,20 @@
+Python
+C++
+SQL
+JavaScript
+React
+Node.js
+MongoDB
+PostgreSQL
+Machine Learning
+Deep Learning
+Docker
+Kubernetes
+Git
+AWS
+Flask
+FastAPI
+Pandas
+NumPy
+Scikit-learn
+TensorFlow
