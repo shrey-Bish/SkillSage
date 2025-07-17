@@ -1,10 +1,10 @@
+
 import React, { useState } from "react";
 import axios from "axios";
-import { pdfjs } from 'react-pdf';
-import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf'; // legacy build
+import * as pdfjsLib from "pdfjs-dist";
+import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min.js";
 
-// Set correct worker
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 const ROLES = [
   "Full Stack Developer",
@@ -24,7 +24,7 @@ function App() {
   const [loadingExtract, setLoadingExtract] = useState(false);
   const [loadingGap, setLoadingGap] = useState(false);
 
-  // PDF Upload and extract text
+  // ✅ PDF Upload Handler
   const handlePDFUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -54,6 +54,7 @@ function App() {
   };
   
 
+  // ✅ Extract Skills API
   const handleExtractSkills = async () => {
     setLoadingExtract(true);
     setError("");
@@ -84,6 +85,7 @@ function App() {
     setLoadingExtract(false);
   };
 
+  // ✅ Skill Gap API
   const handleSkillGap = async () => {
     if (extractedSkills.length === 0) {
       setError("Please extract skills first.");
